@@ -31,7 +31,7 @@ export default function Connexion() {
         {/* Logo + titre */}
         <div style={styles.entete}>
           <div style={styles.logoIcon}>AE</div>
-          <h1 style={styles.titre}>AutoÉcole La Réussite</h1>
+          <h1 style={styles.titre}>AutoGes</h1>
           <p style={styles.sousTitre}>Douala, Cameroun </p>
           <div style={styles.adminBadge}>Interface Administrateur</div>
         </div>
@@ -84,7 +84,7 @@ export default function Connexion() {
         </div>
 
         <p style={styles.footer}>
-          © 2025 AutoÉcole La Réussite — Douala
+          © 2025 AutoGes— Douala
         </p>
       </div>
     </div>

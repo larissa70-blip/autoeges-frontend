@@ -60,10 +60,10 @@ export function Sidebar({ pageCourante, onNaviguer, ouvert }) {
     <aside className={`sidebar${ouvert ? ' ouvert' : ''}`}>
       <div className="sidebar-logo">
         <div className="logo-row">
-          <div className="logo-icon">AE</div>
+          <div className="logo-icon">AG</div>
           <div>
-            <div className="logo-name">AutoÉcole</div>
-            <div className="logo-city">La Réussite, Douala</div>
+            <div className="logo-name">AutoGes</div>
+            <div className="logo-city">, Douala</div>
           </div>
         </div>
         <span className="logo-badge">En activité</span>

@@ -10,13 +10,13 @@ import {
 } from './pages/AutresPages';
 
 const TITRES = {
-  'tableau-bord': '📊 Tableau de bord',
-  'eleves':       '👥 Gestion des élèves',
-  'planning':     '📅 Planning hebdomadaire',
-  'examens':      '📝 Examens',
-  'paiements':    '💰 Paiements',
-  'moniteurs':    '🚗 Moniteurs',
-  'parametres':   '⚙️ Paramètres',
+  'tableau-bord': ' Tableau de bord',
+  'eleves':       ' Gestion des élèves',
+  'planning':     ' Planning hebdomadaire',
+  'examens':      ' Examens',
+  'paiements':    ' Paiements',
+  'moniteurs':    ' Moniteurs',
+  'parametres':   ' Paramètres',
 };
 
 const notifData = [
@@ -93,7 +93,7 @@ function AppContenu() {
               onClick={() => setNotifModal(true)}
               style={{ position: 'relative', padding: '7px 14px' }}
             >
-              🔔
+              
               <span className="notif-point" />
             </button>
 
@@ -106,7 +106,7 @@ function AppContenu() {
         {afficherPage()}
       </div>
 
-      <Modal ouvert={notifModal} onFermer={() => setNotifModal(false)} titre="🔔 Notifications">
+      <Modal ouvert={notifModal} onFermer={() => setNotifModal(false)} titre=" Notifications">
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           {notifData.map(n => (
             <div key={n.id} style={{

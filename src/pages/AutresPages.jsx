@@ -396,7 +396,7 @@ export function Moniteurs() {
 export function Parametres() {
   const [notifs, setNotifs]     = useState({ retard: true, examen: true, sms: false });
   const [sauvegarde, setSauvegarde] = useState(false);
-  const [info, setInfo]         = useState({ nom: 'AutoÉcole La Réussite', adresse: 'Rue Joffre, Akwa, Douala', telephone: '+237 699 000 001', email: 'contact@lareussite-douala.cm' });
+  const [info, setInfo]         = useState({ nom: 'AutoGes', adresse: 'Ange Raphael, Douala', telephone: '+237 651 273 405', email: 'larissa@autoges-douala.cm' });
   const [tarifs, setTarifs]     = useState({ permisB: '150 000', permisA: '80 000', code: '35 000' });
 
   function enregistrer() {

@@ -41,15 +41,15 @@ export function Modal({ ouvert, onFermer, titre, children, large }) {
 // ---- Sidebar Admin ----
 const liens = [
   { groupe: 'Administration', items: [
-    { id: 'tableau-bord', label: '📊 Tableau de bord' },
-    { id: 'eleves',       label: '👥 Élèves' },
-    { id: 'planning',     label: '📅 Planning' },
-    { id: 'examens',      label: '📝 Examens' },
-    { id: 'paiements',    label: '💰 Paiements' },
-    { id: 'moniteurs',    label: '🚗 Moniteurs' },
+    { id: 'tableau-bord', label: ' Tableau de bord' },
+    { id: 'eleves',       label: ' Élèves' },
+    { id: 'planning',     label: ' Planning' },
+    { id: 'examens',      label: ' Examens' },
+    { id: 'paiements',    label: ' Paiements' },
+    { id: 'moniteurs',    label: ' Moniteurs' },
   ]},
   { groupe: 'Réglages', items: [
-    { id: 'parametres', label: '⚙️ Paramètres' },
+    { id: 'parametres', label: ' Paramètres' },
   ]},
 ];
 
@@ -100,7 +100,7 @@ export function Sidebar({ pageCourante, onNaviguer, ouvert }) {
           </div>
         </div>
         <button className="btn btn-sm" style={{ width: '100%' }} onClick={deconnecter}>
-          🚪 Se déconnecter
+           Se déconnecter
         </button>
       </div>
     </aside>
@@ -116,7 +116,7 @@ export function Chargement() {
 export function ErreurApi({ message }) {
   return (
     <div className="erreur-api">
-      ⚠️ {message || 'Impossible de charger les données. Vérifiez que le serveur est démarré.'}
+       {message || 'Impossible de charger les données. Vérifiez que le serveur est démarré.'}
     </div>
   );
 }

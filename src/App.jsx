@@ -82,7 +82,7 @@ function AppContenu() {
         <div className="topbar">
           {/* Bouton hamburger — visible seulement sur mobile */}
           <button className="btn-menu" onClick={() => setSidebarOuverte(v => !v)}>
-            ☰
+            Menu
           </button>
 
           <div className="topbar-title">{TITRES[page]}</div>

@@ -392,7 +392,7 @@ export function Moniteurs() {
 }
 
 /* ======================================================
-   MON DOSSIER — Espace élève
+   MON DOSSIER — Espace élève */
 export function Parametres() {
   const [notifs, setNotifs]     = useState({ retard: true, examen: true, sms: false });
   const [sauvegarde, setSauvegarde] = useState(false);

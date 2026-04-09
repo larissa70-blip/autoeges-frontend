@@ -58,7 +58,7 @@ export default function TableauBord({ onNaviguer }) {
     <div className="page">
       {erreur && (
         <div className="alerte alerte-warning" style={{ marginBottom: 16 }}>
-          ⚠️ {erreur}
+           {erreur}
         </div>
       )}
 
@@ -90,7 +90,7 @@ export default function TableauBord({ onNaviguer }) {
         {/* Graphique inscriptions */}
         <div className="carte">
           <div className="carte-entete">
-            <div className="carte-titre">📈 Inscriptions par mois</div>
+            <div className="carte-titre"> Inscriptions par mois</div>
             <span className="tag">2025</span>
           </div>
           <div className="carte-corps">

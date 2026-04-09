@@ -32,7 +32,7 @@ export default function Connexion() {
         <div style={styles.entete}>
           <div style={styles.logoIcon}>AE</div>
           <h1 style={styles.titre}>AutoÉcole La Réussite</h1>
-          <p style={styles.sousTitre}>Douala, Cameroun 🇨🇲</p>
+          <p style={styles.sousTitre}>Douala, Cameroun </p>
           <div style={styles.adminBadge}>Interface Administrateur</div>
         </div>
 
@@ -78,7 +78,7 @@ export default function Connexion() {
 
           <div style={styles.infoSection}>
             <p style={styles.infoTexte}>
-              🔒 Accès réservé aux administrateurs autorisés
+               Accès réservé aux administrateurs autorisés
             </p>
           </div>
         </div>
